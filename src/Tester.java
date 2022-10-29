@@ -4,4 +4,8 @@ public class Tester {
         return a+b;
     }
 
+    public double add( double b, double c){
+        return b+c;
+    }
+
 }
