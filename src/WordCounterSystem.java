@@ -8,7 +8,7 @@ public class WordCounterSystem {
         String Text = scanner.nextLine();
 
         char[] letters = Text.toCharArray();
-        int words = 0;
+        int words = 1;
         int numberOfLetters = 0;
 
         for (int i = 0; i < letters.length; i++) {
@@ -19,6 +19,5 @@ public class WordCounterSystem {
         }
         System.out.println("");
         System.out.println("Your Text has " + words + " Words and " + numberOfLetters +" letters." );
-
     }
 }

@@ -51,7 +51,7 @@ public class Oracle implements ActionListener {
         if ((i == 0)) {
             label2.setText("                        YES");
         } else {
-            label2.setText("                        NO");
+            label2.setText("                         NO");
         }
     }
 }
