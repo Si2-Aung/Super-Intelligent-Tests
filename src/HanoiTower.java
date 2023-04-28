@@ -1,15 +1,14 @@
-import java.util.Arrays;
-import java.util.Arrays;
+
 
 public class HanoiTower {
 
     public static void main(String[] args) {
-        String [] test = Hanoi(4,"A","C");
+        String [] test = Hanoi(10,"A","C");
 
-        for (int i = 0; i < test.length; i++) {
-            System.out.print(test[i] + "-->");
+        for (String s : test) {
+            System.out.print(s + "-->");
         }
-
+        System.out.println(test.length);
     }
 
     private static String [] Hanoi (int n, String i, String j){
@@ -39,11 +38,9 @@ public class HanoiTower {
         int jZahl = 0;
         int hZahl;
 
-        if(i == "A") iZahl=0;
         if(i == "B") iZahl=1;
         if(i == "C") iZahl=2;
 
-        if(j == "A") jZahl=0;
         if(j == "B") jZahl=1;
         if(j == "C") jZahl=2;
 
